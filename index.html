@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+        <header>
+            <nav>
+                <div class="right">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#aboutus">About</a></li>
+                        <li><a href="#explorefoods">Projects</a></li>
+                        <li><a href="#contactus">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav> 
+        </header>
+        <section id="home" class="firstsection">
+            <div class="leftsection">
+                Hi, I am <span class="purple">Taha</span>
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+                <p class="para">Web Developer</p>
+                <div class="buttons">
+                    <button class="btn1">Download Resume</button>
+                    <i class="fa-brands fa-linkedin fa-2xs"></i>
+                    <i class="fa-brands fa-github fa-2xs"></i>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="image/heroe.png" alt="profile pic">
+            </div>
+        </section>
+    <section id="aboutus" class="fourthsection">
+        
+        <div class="leftsside about-text">
+            <h2>About Me</h2>
+            <p>I am a full stack web developer with a passion for creating interactive and responsive web applications. I have experience working with JavaScript, HTML, CSS, and Git. I am a quick learner and I am always looking to expand my knowledge and skill set. I am a team player and I am excited to work with others to create amazing applications.</p>
+            <div class="tab-buttons">
+                <button class="btn1" onclick="showContent('skills')">Skills</button>
+                <button class="btn1" onclick="showContent('education')">Education</button>
+                <button class="btn1" onclick="showContent('certifications')">Certifications</button>
+            </div>
+            <div id="skills" class="tab-content">
+                <ul>
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>DSA</li>
+                    <li>Java</li>
+                    <li>C</li>
+                </ul>
+            </div>
+            <div id="education" class="tab-content">
+                <p>Bachelor's in Computer Application, Iter</p>
+            </div>
+            <div id="certifications" class="tab-content">
+                <p>Intern at Prodigy InfoTech</p>
+                <p>React Developer</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="thirdsection">
+        <div class="container">
+            <div class="card">
+                <h2>Programming</h2>
+                <div class="skill">
+                    <span>C Programming</span>
+                    <span>C++</span>
+                    <span>Python</span>
+                    <span>Java</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <h2>Frontend Stack</h2>
+                <div class="skill">
+                    <span>ReactJS</span>
+                    <span>NextJS</span>
+                    <span>Redux</span>
+                    <span>Aceternity UI</span>
+                    <span>Tailwind CSS</span>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <h2>Backend Stack</h2>
+                <div class="skill">
+                    <span>NodeJS</span>
+                    <span>ExpressJS</span>
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>NeonDB</span>
+                    <span>MongoDB</span>
+                    <span>Postgres</span>
+                    <span>SupaBase</span>
+                    <span>Redis</span>
+                </div>
+            </div>
+            <div class="container">
+            <div class="card">
+                
+            </div>
+            <div class="card">
+                
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="projects-section">
+        <h1>My Projects</h1>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="image/project.png" alt="Secure Chat App">
+                <h3>Food Website</h3>
+                <p>Odisha Cafe is a dynamic website created using Html, CSS, and JavaScript and PHP. It showcases the rich culinary heritage of Odisha with an interactive menu, customer reviews, and a contact form for reservations and inquiries.</p>
+                <div class="tech-stack">
+                    <span>Html</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Figma</span>
+                </div>
+                <a href="#" class="live-site-link">Check Live Site</a>
+            </div>
+            <div class="project-card">
+                <img src="image/project2.png" alt="Spotify Clone">
+                <h3>Voting Portal</h3>
+                <p>An Online Voting System built using Html,CSS,Bootstrap,PHP. It ensures secure and transparent elections with user authentication, real-time vote counting, and an intuitive interface for voters and administrators.</p>
+                <div class="tech-stack">
+                    <span>Html</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Bootstrap</span>
+                    <span>PHP</span>
+                </div>
+                <a href="#" class="live-site-link">Check Live Site</a>
+            </div>
+            <div class="project-card">
+                <img src="image/Screenshot 2024-07-30 001937.png" alt="Weather App">
+                <h3>Weather Forecast Webpage</h3>
+                <p>A Weather Forecast webpage created using HTML, CSS, and JavaScript, providing real-time weather updates and information for various cities.</p>
+                <div class="tech-stack">
+                    <span>Html</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="#" class="live-site-link">Check Live Site</a>
+            </div>
+        </div>
+    </section>
+    <section id="reserve" class="formsec">
+        <div class="container">
+            <div class="conttent">
+                <h2>Let's Connect</h2>
+                <p class="pp">
+                    I'm currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                </p>
+                <i class="fa-brands fa-linkedin-in fa-xl"></i>
+                <i class="fa-brands fa-github fa-xl"></i>
+            </div>
+            <div class="reservation-form">
+                <form action="#" method="get" autocomplete="on">
+                    <div class="form-group">
+                        <label for="email">Your Email*</label>
+                        <input type="email" id="email" name="email" required placeholder="Your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject*</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message*</label>
+                        <textarea id="message" name="message" required placeholder="Your message"></textarea>
+                    </div>
+                    <button class="fbtn" type="submit">Request Reservation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed("#element", {
+            strings: ["Web Developer", "Photographer", "Content Creator"],
+            typeSpeed: 50,
+        });
+
+        function showContent(contentId) {
+            // Hide all tab contents
+            const tabContents = document.querySelectorAll('.tab-content');
+            tabContents.forEach(content => content.classList.remove('active'));
+
+            // Remove active class from all buttons
+            const tabButtons = document.querySelectorAll('.tab-buttons .btn1');
+            tabButtons.forEach(button => button.classList.remove('active'));
+
+            // Show the selected tab content
+            const content = document.getElementById(contentId);
+            if (content) {
+                content.classList.add('active');
+            }
+
+            // Add active class to the clicked button
+            const button = document.querySelector(`.tab-buttons .btn1[onclick="showContent('${contentId}')"]`);
+            if (button) {
+                button.classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
